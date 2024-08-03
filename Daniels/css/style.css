@@ -1,0 +1,515 @@
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.6) 0% 100%), url(../image/bg.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+
+}
+#home p{
+  font-size: 3.75rem;
+}
+#home h1::after {
+  content: " |";
+  font-weight: bold;
+  font-size: 50px;
+  animation: typing infinite 4s alternate;
+  -webkit-animation: typing infinite 4s alternate;
+}
+
+@keyframes typing {
+  0% {
+    content: ' D|';
+  }
+
+  4% {
+    content: ' De|';
+  }
+
+  8% {
+    content: ' Dev|';
+  }
+
+  12% {
+    content: ' Deve|';
+  }
+
+  16% {
+    content: ' Devel|';
+  }
+
+  20% {
+    content: ' Develo|';
+  }
+
+  24% {
+    content: ' Develop|';
+  }
+
+  27% {
+    content: ' Develope|';
+  }
+
+  28% {
+    content: ' Developer|';
+  }
+
+  35% {
+    content: ' Developer|';
+  }
+
+  36% {
+    content: ' Des|';
+  }
+
+  40% {
+    content: ' Desi|';
+  }
+
+  44% {
+    content: ' Desig|';
+  }
+
+  47% {
+    content: ' Deseign|';
+  }
+
+  51% {
+    content: ' Deseigne|';
+  }
+
+  52% {
+    content: ' Deseigner|';
+  }
+
+  59% {
+    content: ' Deseigner|';
+  }
+
+  60% {
+    content: ' |';
+  }
+
+  64% {
+    content: ' L|';
+  }
+
+  68% {
+    content: ' La|';
+  }
+
+  72% {
+    content: ' Lar|';
+  }
+
+  74% {
+    content: ' Larr|';
+  }
+
+  78% {
+    content: '  Larry|';
+  }
+
+  82% {
+    content: 'Larry D|';
+  }
+
+  86% {
+    content: 'Larry Da|';
+  }
+
+  89% {
+    content: 'Larry Dan|';
+  }
+
+  92% {
+    content: 'Larry Dani|';
+  }
+
+  94% {
+    content: 'Larry Danie|';
+  }
+
+  95% {
+    content: 'Larry Daniel|';
+  }
+
+  96% {
+    content: 'Larry Daniels|';
+  }
+
+  100% {
+    content: 'Larry Daniels|';
+  }
+
+}
+
+/* .navbar-nav .nav-link.active::after{
+  content: "";
+  width: 100%;
+  height: 3px;
+  background-color: black;
+ display: block;
+ 
+} */
+.navbar-expand-lg .navbar-nav .nav-link{
+  position: relative;
+  /* padding-left: 0 !important;
+  padding-right: 0 !important; */
+}
+  body:has(.home:target) .home-link {
+  color: black;
+  font-weight: bold;
+} 
+
+ body:has(.home:target) .home-link::after {
+  width: 100%;
+  content: "";
+  height: 3px;
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  background-color: black;
+  transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -ms-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+} 
+
+body:has(.about:target) .about-link {
+  color: black;
+  font-weight: bold;
+}
+
+body:has(.about:target) .about-link::after {
+  width: 100%;
+  content: "";
+  height: 3px;
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  background-color: black;
+  transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -ms-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+}
+body:has(.services:target) .services-link {
+  color: black;
+  font-weight: bold;
+}
+
+body:has(.services:target) .services-link::after {
+  width: 100%;
+  content: "";
+  height: 3px;
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  background-color: black;
+  transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -ms-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+}
+body:has(.works:target) .works-link {
+  color: black;
+  font-weight: bold;
+}
+
+body:has(.works:target) .works-link::after {
+  width: 100%;
+  content: "";
+  height: 3px;
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  background-color: black;
+  transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -ms-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+}
+body:has(.clients:target) .clients-link {
+  color: black;
+  font-weight: bold;
+}
+
+body:has(.clients:target) .clients-link::after {
+  width: 100%;
+  content: "";
+  height: 3px;
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  background-color: black;
+  transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -ms-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+}
+body:has(.teame:target) .team-link {
+  color: black;
+  font-weight: bold;
+}
+
+body:has(.team:target) .team-link::after {
+  width: 100%;
+  content: "";
+  height: 3px;
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  background-color: black;
+  transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -ms-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+}
+body:has(.contact:target) .contact-link {
+  color: black;
+  font-weight: bold;
+}
+
+body:has(.contact:target) .contact-link::after {
+  width: 100%;
+  content: "";
+  height: 3px;
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  background-color: black;
+  transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -ms-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+} 
+
+.services .icon-border i,
+.contact .icon-border i {
+  background-color: rgb(238, 234, 234);
+  color: black;
+  padding: 20px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.services .card-border:hover i,
+.contact .icon-border:hover i {
+  background-color: black;
+  color: white;
+}
+
+.works .layer {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  opacity: 0;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 6px solid rgb(209, 209, 209);
+  transition: 0.6s ease;
+  -webkit-transition: 0.6s ease;
+  -moz-transition: 0.6s ease;
+  -ms-transition: 0.6s ease;
+  -o-transition: 0.6s ease;
+}
+
+.works .layer:hover {
+  opacity: 1;
+}
+
+.works .icon-color i,
+.team i {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+
+}
+
+.works .icon-color i:hover,
+.team i:hover {
+  background-color: white;
+  color: black;
+  border: 1px black solid;
+}
+
+.works ul li .nav-link {
+  color: black;
+}
+
+.contact input,
+.contact textarea {
+  outline: none;
+
+}
+
+.contact button {
+  color: white;
+  background-color: black;
+}
+
+.contact button:hover {
+  color: black;
+  background-color: white;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 11px;
+  height: 11px;
+  background-color: #d6d6d6;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.team .image-layer {
+  position: absolute;
+  top: 5px;
+  bottom: 5px;
+  left: 5px;
+  right: 5px;
+  background-color: rgb(255, 255, 255, 0.9);
+  opacity: 0;
+  transition: 0.8s ease;
+  -webkit-transition: 0.8s ease;
+  -moz-transition: 0.8s ease;
+  -ms-transition: 0.8s ease;
+  -o-transition: 0.8s ease;
+  transform-origin: center;
+  transform: rotatey(180deg);
+  -webkit-transform: rotatey(180deg);
+  -moz-transform: rotatey(180deg);
+  -ms-transform: rotatey(180deg);
+  -o-transform: rotatey(180deg);
+}
+
+.team .card:hover .image-layer {
+  opacity: 1;
+  transform: rotatey(0deg);
+  -webkit-transform: rotatey(0deg);
+  -moz-transform: rotatey(0deg);
+  -ms-transform: rotatey(0deg);
+  -o-transform: rotatey(0deg);
+}
+.team .imge-card{
+  overflow: hidden;
+ 
+}
+.team .imge-card img{
+  transition: 0.6s ease;
+  -webkit-transition: 0.6s ease;
+  -moz-transition: 0.6s ease;
+  -ms-transition: 0.6s ease;
+  -o-transition: 0.6s ease;
+}
+.team .imge-card:hover img {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+.about .inner::after {
+  content: "";
+  width: 90%;
+  height: 90%;
+  position: absolute;
+  left: -30px;
+  bottom: -30px;
+  background-image: url(../image/dots.png);
+  background-repeat: repeat;
+  z-index: -1;
+}
+
+#about .cv {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 10px 25px;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: 0.9rem;
+  transition: 0.5s;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+#about .contact-btn {
+  text-decoration: none;
+  color: black;
+  background-color: transparent;
+  padding: 10px 25px;
+  font-size: 0.9rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  transition: 0.5s;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.progress-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+  font-size: 1rem;
+  border-radius: 5px;
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+  padding-top: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+
+}
+.works .nav-tabs .nav-item .nav-link{
+  position: relative;
+  /* padding-left: 0 !important;
+  padding-right: 0 !important; */
+
+}
+
+#works .nav .active::after {
+  /* border-bottom: 3px solid black; */
+  content: "";
+  width: 70%;
+  height: 3px;
+  position: absolute;
+  background-color: black;
+  left: 0;
+  bottom: 0;
+  margin-left: 10px;
+}
